@@ -1,0 +1,11 @@
+@import 'utilities/fonts';
+@import 'utilities/variables';
+@import 'utilities/colors';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+.cta {
+  color: $lapis;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
