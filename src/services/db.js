@@ -4,13 +4,13 @@ import 'firebase/firestore'
 // Get a Firestore instance
 export const db = firebase
 .initializeApp({
-  apiKey: 'AIzaSyBQQloZi-smf4mMlx84DWI87As9303UJ_A',
-  authDomain: 'twitter-clone-4d47c.firebaseapp.com',
-  databaseURL: 'https://twitter-clone-4d47c.firebaseio.com',
-  projectId: 'twitter-clone-4d47c',
-  storageBucket: 'twitter-clone-4d47c.appspot.com',
-  messagingSenderId: '836614726822',
-  appId: '1:836614726822:web:6d290774d52bb5910a0067',
+  apiKey: process.env.VUE_APP_API_KEY,
+  authDomain: process.env.VUE_APP_AUTH_DOMAIN,
+  databaseURL: process.env.VUE_APP_DB_URL,
+  projectId: process.env.VUE_APP_PROJECT_ID,
+  storageBucket: process.env.VUE_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.VUE_APP_MESSAGING_SENDER_ID,
+  appId: process.env.VUE_APP_APP_ID,
 })
 .firestore()
 
