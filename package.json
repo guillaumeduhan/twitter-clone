@@ -8,6 +8,7 @@
   ],
   "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, Axios, SCSS and Pug/HTML boilerplate.",
   "private": true,
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "serve": "vue-cli-service serve",
