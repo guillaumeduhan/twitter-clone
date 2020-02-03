@@ -12,9 +12,6 @@
   "scripts": {
     "start": "node server.js",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "stylelint '**/*.vue' '**/*.scss' --fix scss"
   },
   "dependencies": {
     "@vue/eslint-config-airbnb": "^4.0.1",
