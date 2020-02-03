@@ -43,13 +43,13 @@ export default {
   name: 'Login',
   data() {
     return {
-      confirmPassword: '123445',
+      confirmPassword: undefined,
       errorMessage: undefined,
       firebaseFunctions,
-      mail: 'tonyo@hey.com',
-      password: '123445',
+      mail: undefined,
+      password: undefined,
       signup: true,
-      username: 'tonyo'
+      username: undefined
     }
   },
   components: {
